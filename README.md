@@ -9,8 +9,8 @@ For this model, the optimization performed in Wolfram Mathematica matches the on
 The other example corresponds to a bigger model, the one for Staphylococcus aureus (SA) metabolism.
 This original model is available in JSON format (iYS854). 
 The original file was cleaned (iYS854_version_4.json) by removing the following:
-1) metabolites that do not participate in any reaction
-2) metabolites that participate in only one reaction (which flux should be 0)
-3) reactions containing metabolites that only participate in that reaction
+1) metabolites that do not participate in any reaction.
+2) metabolites that participate in only one reaction (which flux should be 0).
+3) reactions containing metabolites that only participate in that reaction.
 The difference in the optimization between the two approaches is notable.
 It also happens without cleaning the network
